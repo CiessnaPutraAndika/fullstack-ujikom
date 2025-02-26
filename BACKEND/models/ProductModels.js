@@ -34,7 +34,7 @@ const Product = db.define(
     }
 )
 
-Product.hasOne(Order, {
+Product.hasMany(Order, {
     onDelete: 'CASCADE',
     onUpdate: 'CASCADE',
 })
