@@ -1,0 +1,16 @@
+admin
+guru
+siswa
+mapel
+tugas
+
+fitur :
+
+login
+dashboard
+manajemen guru
+manajemen siswa
+manajemen mapel
+pengajuan tugas
+laporan & monitoring tugas
+logout
