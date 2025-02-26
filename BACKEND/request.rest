@@ -1,0 +1,28 @@
+GET http://localhost:5500/admin
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoxLCJlbWFpbCI6ImNpcnNAZ21haWwuY29tIiwidXNlcm5hbWUiOiJjaWVzc25hIiwiaWF0IjoxNzM5MTk1NjI1LCJleHAiOjE3MzkxOTYyMjV9.oVF4WprN6E9_V7P5HTyFXwaV1uqsEfd__Q1C8Nf_Nok
+
+###
+POST http://localhost:5500/login/create
+Content-Type: application/json
+
+{
+    "email" : "ciessna@gmail.com",
+    "password" : "ciessna"
+}
+
+###
+PUT http://localhost:5500/admin/update/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjoxLCJlbWFpbCI6ImNpcnNAZ21haWwuY29tIiwidXNlcm5hbWUiOiJDaXJzc1kiLCJpYXQiOjE3MzkxOTU4MjgsImV4cCI6MTczOTE5NjQyOH0.IJiDAwUrfxUw1LzaxPXaMhyh0tkPGWleYAubL8Jjw1w
+Content-Type: application/json
+
+{
+    "username": "Ciessna",
+    "email": "ciessna@example.com",
+    "password": "ciessna"
+}
+
+###
+GET http://localhost:5500/tokenuser
+
+###
+DELETE http://localhost:5500/logoutuser
