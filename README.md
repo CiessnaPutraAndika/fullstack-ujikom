@@ -44,6 +44,12 @@ Tampilan halaman ini merupakan Landing Page product, berikut link untuk mengakse
 Tampilan halaman ini untuk melakukan Order product ke dalam cart, berikut link untuk mengakses : http://localhost:5173/home
 <img src='./ASSETS/add to cart.jpg'/>
 
+Tampilan halaman ini merupakan page pada cart, berikut link untuk mengakses : http://localhost:5173/cart
+<img src='./ASSETS/cart.jpg'/>
+
+Tampilan halaman ini merupakan page pada hasil transaksi, berikut link untuk mengakses : http://localhost:5173/cart
+<img src='./ASSETS/payment.jpg'/>
+
 Tampilan halaman ini merupakan Footer, berikut link untuk mengakses : http://localhost:5173/home
 <img src='./ASSETS/footer.jpg'/>
 
